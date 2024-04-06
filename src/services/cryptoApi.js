@@ -17,6 +17,6 @@ export const cryptoApi = createApi({
       query: () => createRequest("/coins"),
     }),
   }),
-});
+}); 
 
 export const { useGetCryptosQuery } = cryptoApi;
